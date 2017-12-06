@@ -1,0 +1,36 @@
+{
+  "name": "@amd-core/mongoose-ts",
+  "version": "0.0.1",
+  "description": "Typescript helpers for Mongoose",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amd-core/mongoose-ts.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Mongoose",
+    "helpers",
+    "classes",
+    "decorators"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amd-core/mongoose-ts/issues"
+  },
+  "homepage": "https://github.com/amd-core/mongoose-ts#readme",
+  "devDependencies": {
+    "@types/mongoose": "^4.7.28",
+    "@types/reflect-metadata": "0.0.5",
+    "mongoose": "^4.13.6",
+    "reflect-metadata": "^0.1.10",
+    "tslib": "^1.8.0",
+    "tslint": "^5.8.0",
+    "typedi": "^0.6.0",
+    "typescript": "^2.6.2"
+  }
+}
