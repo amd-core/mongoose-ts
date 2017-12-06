@@ -17,11 +17,20 @@
     "classes",
     "decorators"
   ],
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/amd-core/mongoose-ts/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "contributors": [
+    {
+      "email": "contact@nathan-mcgrath.com",
+      "name": "Nathan Mc Grath",
+      "url": "http://nathan-mcgrath.com"
+    }
+  ],
   "homepage": "https://github.com/amd-core/mongoose-ts#readme",
   "devDependencies": {
     "@types/mongoose": "^4.7.28",
