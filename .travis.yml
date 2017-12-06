@@ -1,7 +1,17 @@
 language: node_js
 node_js:
-  - "lts/*"
+- lts/*
 install:
-  - npm install
+- npm install
 script:
-  - npm run build
+- npm run build
+deploy:
+  provider: npm
+  email: contact@nathan-mcgrath.com
+  skip_cleanup: true
+  api_key:
+    secure: mwxX6b76T82TrDw78bNyYpmtDFSgMEJlNB+Zpw/hRVW26CpFNlnhdCzN0Ovo9oR+N6H0r3+o3QpRV5Nfg+dl2VmVOjqEkpLbsHMcGh6jYxE1RzLFhmwHSNJ6KBkofKX6Ur5FzrwUtIiyiezvZj5ka58C2d/+Yei21Eo2y/nnN4fR7ptVEzr6aS6fU+E1CPh8AxnW4GAtvoD7lEdr4VsYKXfguoqtB5jMVV40U5cChTMr6ntBF35fEwg5OseZOlcgYneidoX5sisi280mUjbm8P5TwTGfwrKccCnFAhp9VVrUgVl9lfBMz9eXdXjZmOWi+1I7P1Nsn/hybmIS3fIYqKUHLUmPn8+r5rXyjbjN1Ryx9RVtM8XztiqND8LzyKWyDFW9+gr45xO2nnusXR5Ex0ufFWnNXB3r9WjWPLKNaMWQzdkvlE4gCUyaYCZEfVAqTbR4gCMHnMRcsMpBIOeUE8vuhXyXfnanlcHZzUepmFUEo9vqi8FCUyeooNZvaMj8QXZLmEVATrbJoVAGKF1qzg56gW8TItT4mWNNu/MCtb4Qk7vo33qbWolSUcldhMdsinCHz1pGo0PMSNS0dhWW7kvYg0ARqwnL9GJcd/RYTDU3TBgXjg1bnqWfsFO0zr/fOhGqR9JcH0tfJ24gpUhFaS6kQLetvJzLKanja7S+39Q=
+  on:
+    repo: amd-core/mongoose-ts
+    tags: true
+
