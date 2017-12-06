@@ -1,8 +1,9 @@
 {
   "name": "@amd-core/mongoose-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript helpers for Mongoose",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
